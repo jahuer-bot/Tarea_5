@@ -18,3 +18,10 @@ class Gato(Animal):
 class Pajaro(Animal):
   def emitir_sonido(self):
     print("Pio pio")
+
+#3 Define una funcion llmada ...
+def hacer_emitir_sonido(lista_de_animales):
+  print("llamando a emitir_sonido()")
+  for animal in lista_de_animales:
+    animal.emitir_sonido()
+
