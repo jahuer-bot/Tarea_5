@@ -25,3 +25,9 @@ def hacer_emitir_sonido(lista_de_animales):
   for animal in lista_de_animales:
     animal.emitir_sonido()
 
+#0 Fin
+mi_perro = Perro("Firulais", 5)
+mi_gato = Gato("Pelusa", 3)
+mi_pajaro = Pajaro("Piolin", 1)
+animales_juntos = [mi_perro, mi_gato, mi_pajaro]
+hacer_emitir_sonido(animales_juntos)
